@@ -63,3 +63,26 @@
 .clip3{
     clip-path: polygon(100% 0, 100% 0%, 100% 100%, 0 100%);
 }
+
+.testhov{
+    height: 100%;
+    background: white;
+    transform: translateX(-100%);
+    object-fit: cover;
+    transition: 0.5s all ease-in-out;
+    transform-origin: right;
+}
+
+.cardx:hover .testhov{
+    transform: translateX(0);
+}
+
+.testhov2{
+    height: 100%;
+    background: #071e3d;
+    transform: translateY(-100%);
+    object-fit: cover;
+    transition: 0.5s all ease-in-out;
+    transform-origin: right;
+}
+
