@@ -1,0 +1,65 @@
+.contentimg:hover .contentcard{
+    transform: translateY(-2.5rem);
+    background: aqua;
+}
+
+.contentimg:hover{
+    transform: translateY(1rem);
+}
+
+.contentcard{
+    transform: translateY(-1rem);
+}
+
+.logobg{
+    background-image: url(https://picsum.photos/id/2/1280/720);
+}
+
+.wrapin{
+    width: 100vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.wrapout{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.ssx{
+    width: 100vh;
+    height: 100vw;
+}
+
+.testvis{
+    visibility: hidden;
+}
+
+.lol:hover .testvis{
+    visibility: visible;
+}
+
+.backbtn:hover .chevleft{
+    transform: translateX(-8px);
+}
+
+.clip{
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    transition: 0.5s all ease-in-out;
+}
+
+.clip:hover{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.clip2{
+    clip-path: polygon(0 0, 100% 0%, 0 100%, 0% 100%);
+}
+.clip3{
+    clip-path: polygon(100% 0, 100% 0%, 100% 100%, 0 100%);
+}
