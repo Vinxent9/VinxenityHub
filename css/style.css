@@ -66,14 +66,12 @@
 
 .txtexplore{
     transition: 0.3s all ease-in-out;
-    transform: translateX(-10rem);
-    transform: translateY(-2rem);
-    
+    transform: translateY(-120%) translateX(-100%);
 }
 
 .btnexplore:hover .txtexplore{
     transition: 0.3s all ease-in-out;
-    transform: translateY(0);
+    transform: translateX(-100%);
 }
 
 
