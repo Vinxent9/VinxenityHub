@@ -102,3 +102,11 @@
     transform-origin: right;
 }
 
+.menusect:hover{
+    flex: 3;
+}
+
+.img1{
+   background-image: url(https://picsum.photos/id/65/1000);
+   background-size: cover;
+}
